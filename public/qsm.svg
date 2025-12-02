@@ -1,0 +1,60 @@
+
+<svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#98f6ff" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#3bd8ff" stop-opacity="0.50"/>
+      <stop offset="100%" stop-color="#00baff00"/>
+    </radialGradient>
+    <linearGradient id="orbitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00eaff"/>
+      <stop offset="45%" stop-color="#7b2ff7"/>
+      <stop offset="100%" stop-color="#ff2ecb"/>
+    </linearGradient>
+    <radialGradient id="cloudGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#ffffffbb"/>
+      <stop offset="80%" stop-color="#a855f733"/>
+      <stop offset="100%" stop-color="#00000000"/>
+    </radialGradient>
+    <linearGradient id="entGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d1ff"/>
+      <stop offset="100%" stop-color="#c43bff"/>
+    </linearGradient>
+    <radialGradient id="photon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#00eaff00"/>
+    </radialGradient>
+  </defs>
+  <circle cx="130" cy="130" r="118" fill="url(#cloudGrad)" opacity="0.35"/>
+  <circle cx="130" cy="130" r="130" fill="url(#cloudGrad)" opacity="0.20"/>
+  <ellipse cx="130" cy="130" rx="92" ry="36"
+           stroke="url(#orbitGrad)" stroke-width="6"
+           fill="none" opacity="0.95" stroke-linecap="round"/>
+  <ellipse cx="130" cy="130" rx="36" ry="92"
+           stroke="url(#orbitGrad)" stroke-width="6"
+           fill="none" opacity="0.95" stroke-linecap="round"/>
+  <path d="
+    M 50 130
+    C 90 20, 170 20, 210 130
+    C 170 240, 90 240, 50 130
+  " stroke="url(#orbitGrad)" stroke-width="5"
+    fill="none" opacity="0.55" stroke-linecap="round"/>
+  <path d="
+    M 155 155
+    C 180 180, 210 200, 225 210
+  " stroke="url(#entGlow)" stroke-width="10"
+    stroke-linecap="round" opacity="0.9"
+    style="filter: drop-shadow(0 0 8px #a955ff);"/>
+  <circle cx="210" cy="130" r="7" fill="url(#photon)" opacity="0.9"/>
+  <circle cx="50" cy="130" r="7" fill="url(#photon)" opacity="0.9"/>
+  <circle cx="130" cy="50" r="6" fill="url(#photon)" opacity="0.9"/>
+  <circle cx="130" cy="210" r="6" fill="url(#photon)" opacity="0.9"/>
+  <circle cx="130" cy="130" r="42"
+          fill="url(#coreGlow)" stroke="url(#orbitGrad)"
+          stroke-width="6"
+          style="filter: drop-shadow(0 0 15px #a855f7);"/>
+  <circle cx="130" cy="130" r="22"
+          stroke="url(#entGlow)" stroke-width="3"
+          fill="none" opacity="0.75"
+          style="filter: drop-shadow(0 0 12px #ff4ce3);"/>
+</svg>
