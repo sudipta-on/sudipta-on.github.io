@@ -15,18 +15,19 @@ import AnalyticsTracker from "./AnalyticsTracker";
 
 export default function App() {
   return (
-    <Layout>
-      <Routes>
-        <AnalyticsTracker />
-
-        <Route path="/" element={<Home />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/publications" element={<Publications />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/game-zone" element={<GameZone />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </Layout>
+    <>
+      <AnalyticsTracker />
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/publications" element={<Publications />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/game-zone" element={<GameZone />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Layout>
+    </>
   );
 }
