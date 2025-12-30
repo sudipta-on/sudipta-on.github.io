@@ -150,7 +150,7 @@ export const galleryPhotos = [
     src: "/images/2023/im2.jpg",
     title: "Pt. Madan Mohan Malaviya Hall of Residence",
     // desc: "M.Sc. Convocation at IIT Kharagpur",
-    tags: ["iitkgp", "mmm", "MSc"],
+    tags: ["iitkgp", "MMM", "MSc"],
     date: "2023-09-04",
   },
   
