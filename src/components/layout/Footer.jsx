@@ -24,7 +24,7 @@ export default function Footer() {
           <div className="footer-icons">
             <a href="https://github.com/sudipta-on" target="_blank" className="footer-icon"><FaGithub /></a>
             <a href="https://www.linkedin.com/in/sudipta-majumder/" target="_blank" className="footer-icon"><FaLinkedin /></a>
-            <a href="https://scholar.google.com" target="_blank" className="footer-icon"><FaGoogleScholar /></a>
+            <a href="https://scholar.google.com/citations?user=QufoZPUAAAAJ&hl=en" target="_blank" className="footer-icon"><FaGoogleScholar /></a>
             <a href="https://www.researchgate.net/profile/Sudipta-Majumder-3" target="_blank" className="footer-icon"><SiResearchgate /></a>
           </div>
         </div>

@@ -85,7 +85,7 @@ const Hero = () => {
               <FaLinkedin />
             </a>
 
-            <a href="https://scholar.google.com" target="_blank">
+            <a href="https://scholar.google.com/citations?user=QufoZPUAAAAJ&hl=en" target="_blank">
               <FaGraduationCap />
             </a>
 

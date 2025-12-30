@@ -59,7 +59,7 @@ export default function Contact() {
               <a href="https://www.linkedin.com/in/sudipta-majumder/" target="_blank" className="contact-icon">
                 <FaLinkedin />
               </a>
-              <a href="https://scholar.google.com" target="_blank" className="contact-icon">
+              <a href="https://scholar.google.com/citations?user=QufoZPUAAAAJ&hl=en" target="_blank" className="contact-icon">
                 <FaGraduationCap />
               </a>
               <a href="https://www.researchgate.net/profile/Sudipta-Majumder-3" target="_blank" className="contact-icon">
