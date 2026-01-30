@@ -30,7 +30,7 @@ export default function Navbar() {
         <NavButton to="/experience">Experience</NavButton>
         <NavButton to="/publications">Publications</NavButton>
         <NavButton to="/gallery">Gallery</NavButton>
-        <NavButton to="/game-zone">Game Zone</NavButton>
+        {/* <NavButton to="/game-zone">Game Zone</NavButton> */}
         <NavButton to="/contact">Contact</NavButton>
       </ul>
 
@@ -47,7 +47,7 @@ export default function Navbar() {
           <NavButtonMobile to="/experience" setOpen={setOpen}>Experience</NavButtonMobile>
           <NavButtonMobile to="/publications" setOpen={setOpen}>Publications</NavButtonMobile>
           <NavButtonMobile to="/gallery" setOpen={setOpen}>Gallery</NavButtonMobile>
-          <NavButtonMobile to="/game-zone" setOpen={setOpen}>Game Zone</NavButtonMobile>
+          {/* <NavButtonMobile to="/game-zone" setOpen={setOpen}>Game Zone</NavButtonMobile> */}
           <NavButtonMobile to="/contact" setOpen={setOpen}>Contact</NavButtonMobile>
         </div>
       )}
