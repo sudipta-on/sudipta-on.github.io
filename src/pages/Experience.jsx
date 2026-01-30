@@ -16,6 +16,22 @@ const internships = [
 
 const conferences = [
   {
+    title: "Quantum Machine Learning for Healthcare",
+    subtitle: "India AI Pre-Summit • 2026",
+    shortDesc:
+      "Participated in Quantum Machine Learning for Healthcare seminar organised by MIT Vishwaprayag University, Solaput",
+    backDescription:
+      "Explored Quantum Machine Learning in Healthcare from experts. Gain hands-on experience on QML algorithms like QAOA for MAX-CUT Problem.",
+  },
+  {
+    title: "Indian Symposium on Machine Learning (IndoML) 2025",
+    subtitle: "IndoML • 2025",
+    shortDesc:
+      "Participated in the Sixth Indian Symposium on Machine Learning (IndoML) organised by BITS Pillani Hyderabad",
+    backDescription:
+      "Get engaged with leading research groups in the country. Also get a platform for industrial partners, including startups, working in ML-related areas to showcase their products and receive reviews/feedback as well as setup potential collaborations.",
+  },
+  {
     title: "Qiskit Fall Fest 2025",
     subtitle: "IISc Bangalore • 2025",
     shortDesc:
