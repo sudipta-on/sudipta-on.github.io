@@ -2,34 +2,43 @@ import React from "react";
 import FlipCard from "./FlipCard";
 import useSEO from "../hooks/useSEO";
 
+
 const internships = [
   {
     title: "Research Intern",
     subtitle: "IISER Bhopal • Summer 2024",
-    shortDesc: "Explored Quantum Many-Body Physics using NetKet",
+    shortDesc:
+      "Investigated quantum many-body systems using Neural Quantum States (NQS) and NetKet.",
     backDescription:
-      "Worked on Quantum Monte Carlo simulations, Neural Quantum States (NQS), and ground-state approximations using NetKet.",
+      "Conducted research on quantum many-body physics using Neural Quantum States and variational Monte Carlo methods. Implemented simulations in NetKet to approximate ground-state wavefunctions and analyze system dynamics.",
     link: "https://drive.google.com/file/d/1Kn4iohZ3EIMQp9ydTvgwjcaD8wV-rNM0/view?usp=sharing",
     linkText: "Report",
   },
 ];
-
 const conferences = [
+  {
+    title: "Platinum Jubliee Conference on Contemporary Physics",
+    subtitle: "IIT Kharagpur • 2026",
+    shortDesc:
+      "Presented research on Quantum Graph Recurrent Neural Networks.",
+    backDescription:
+      "Presented a poster on Quantum Graph Recurrent Neural Networks for modeling Hamiltonian dynamics, highlighting the integration of machine learning with quantum systems.",
+  },
   {
     title: "Quantum Machine Learning for Healthcare",
     subtitle: "India AI Pre-Summit • 2026",
     shortDesc:
-      "Participated in Quantum Machine Learning for Healthcare seminar organised by MIT Vishwaprayag University, Solaput",
+      "Explored quantum machine learning applications in healthcare systems.",
     backDescription:
-      "Explored Quantum Machine Learning in Healthcare from experts. Gain hands-on experience on QML algorithms like QAOA for MAX-CUT Problem.",
+      "Participated in expert-led sessions on quantum machine learning with a focus on healthcare applications, including hands-on exposure to algorithms such as QAOA for combinatorial optimization.",
   },
   {
-    title: "Indian Symposium on Machine Learning (IndoML) 2025",
-    subtitle: "IndoML • 2025",
+    title: "Indian Symposium on Machine Learning (InDOML)",
+    subtitle: "BITS Hyderabad • 2025",
     shortDesc:
-      "Participated in the Sixth Indian Symposium on Machine Learning (IndoML) organised by BITS Pillani Hyderabad",
+      "Engaged with academic and industrial advancements in machine learning.",
     backDescription:
-      "Get engaged with leading research groups in the country. Also get a platform for industrial partners, including startups, working in ML-related areas to showcase their products and receive reviews/feedback as well as setup potential collaborations.",
+      "Interacted with leading research groups and industry practitioners, gaining insights into current trends, challenges, and collaborative opportunities in machine learning.",
   },
   {
     title: "Qiskit Fall Fest 2025",

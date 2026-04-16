@@ -98,12 +98,12 @@ const Hero = () => {
           </div>
 
           {/* BUTTONS */}
-          <a href="/contact" className="hero-button">
+          {/* <a href="/contact" className="hero-button">
             Get in Touch
-          </a>
+          </a> */}
 
-          <a href="/" className="hero-button hero-button-space">
-            Open CV
+          <a href="https://drive.google.com/uc?export=download&id=1i2hO5LmUBmuNyW4o2oFpg9H6B4q9Us3F" className="hero-button hero-button-space">
+            Download CV
           </a>
         </div>
 
