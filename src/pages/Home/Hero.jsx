@@ -15,6 +15,7 @@ const Hero = () => {
     title: "Home | Sudipta Majumder",
     description:
       "Sudipta Majumder — Quantum Machine Learning, Quantum State Control, QML research portfolio. IIT Kharagpur.",
+    keywords: "quantum computing, qml, bec, amqi, iitkgp, kharagpur, iit kharagpur, s majumder, sudipta, sudipa Majumder, Sudipta, KGP"
   });
 
   useEffect(() => {
@@ -66,10 +67,8 @@ const Hero = () => {
           </h2>
 
           <p className="hero-description">
-            A passionate researcher working on Quantum Computing, Quantum
-            Machine Learning and Quantum Graph Machine Learning at IIT
-            Kharagpur. Exploring new techniques to bridge Quantum Computing and
-            Machine Learning.
+            A passionate researcher working on Quantum Computing, Quantum Machine Learning and Quantum Graph Machine Learning at IIT
+            Kharagpur. Exploring new techniques to bridge Quantum Computing and Machine Learning.
           </p>
 
           {/* SOCIAL ICONS */}

@@ -6,7 +6,7 @@ export const galleryPhotos = [
     id: 1,
     src: "/images/2025/arpanadi.jpg",
     title: "Farewell of Senior Dr. Arpana Saboo",
-    tags: ["Lab Group", "Farewell", "iitkgp"],
+    tags: ["Lab Group", "Farewell", "IITKGP"],
     date: "2025-11-18",
   },
   {
@@ -14,7 +14,7 @@ export const galleryPhotos = [
     src: "/images/2025/convocation.jpg",
     title: "M.Sc. Convocation, 2025",
     // desc: "M.Sc. Convocation at IIT Kharagpur",
-    tags: ["iitkgp", "MSc", "convocation"],
+    tags: ["IITKGP", "MSc", "Convocation"],
     date: "2025-07-15",
   },
   {
@@ -22,7 +22,7 @@ export const galleryPhotos = [
     src: "/images/2025/convocation1.jpg",
     title: "MSc Convocation, 2025",
     // desc: "M.Sc. Convocation at IIT Kharagpur",
-    tags: ["iitkgp", "MSc", "convocation"],
+    tags: ["IITKGP", "MSc", "Convocation"],
     date: "2025-07-15",
   },
   {
@@ -30,7 +30,7 @@ export const galleryPhotos = [
     src: "/images/2025/convocation2.jpg",
     title: "M.Sc. Convocation, 2025",
     // desc: "M.Sc. Convocation at IIT Kharagpur",
-    tags: ["iitkgp", "MSc", "convocation"],
+    tags: ["IITKGP", "MSc", "Convocation"],
     date: "2025-07-15",
   },
   {
@@ -38,7 +38,7 @@ export const galleryPhotos = [
     src: "/images/2025/gr_1_home.jpg",
     title: "Research Group in Professor House",
     // desc: "Weekly discussion on QGNN and quantum control.",
-    tags: ["Lab Group", ],
+    tags: ["Lab Group", "PhD"],
     date: "2025-11-02",
   },
   {
@@ -54,7 +54,7 @@ export const galleryPhotos = [
     src: "/images/2025/inhouse.jpg",
     title: "In House Symposium at IIT Kharagpur",
     // desc: "Weekly discussion on QGNN and quantum control.",
-    tags: ["Lab Group", "Symposium"],
+    tags: ["Lab Group", "Symposium","Phd"],
     date: "2025-09-04",
   },
   {
@@ -70,7 +70,7 @@ export const galleryPhotos = [
     src: "/images/2025/convocation3.JPG",
     title: "M.Sc. Convocation, 2025",
     // desc: "M.Sc. Convocation at IIT Kharagpur",
-    tags: ["iitkgp", "MSc", "convocation"],
+    tags: ["IITKGP", "MSc", "convocation"],
     date: "2025-07-15",
   },
   {
@@ -118,7 +118,7 @@ export const galleryPhotos = [
     src: "/images/2023/mmm2.jpg",
     title: "MSc Days near Nehru Museum ",
     // desc: "M.Sc. Convocation at IIT Kharagpur",
-    tags: ["MSc", "iitkgp"],
+    tags: ["MSc", "IITKGP"],
     date: "2023-10-19",
   },
   {
@@ -126,7 +126,7 @@ export const galleryPhotos = [
     src: "/images/2025/convocation_mp.JPG",
     title: "M.Sc. Convocation, 2025",
     // desc: "M.Sc. Convocation at IIT Kharagpur",
-    tags: ["MSc", "convocation", "iitkgp"],
+    tags: ["MSc", "convocation", "IITKGP"],
     date: "2025-07-15",
   },
   {
@@ -134,7 +134,7 @@ export const galleryPhotos = [
     src: "/images/2025/freshers.JPG",
     title: "Freshers as Research Scholar @KGP",
     // desc: "M.Sc. Convocation at IIT Kharagpur",
-    tags: ["iitkgp"],
+    tags: ["IITKGP"],
     date: "2025-10-31",
   },
   {
@@ -142,7 +142,7 @@ export const galleryPhotos = [
     src: "/images/2025/gr1.jpeg",
     title: "SM Group",
     // desc: "M.Sc. Convocation at IIT Kharagpur",
-    tags: ["iitkgp", "Lab Group"],
+    tags: ["IITKGP", "Lab Group"],
     date: "2025-10-31",
   },
   {
@@ -150,8 +150,24 @@ export const galleryPhotos = [
     src: "/images/2023/im2.jpg",
     title: "Pt. Madan Mohan Malaviya Hall of Residence",
     // desc: "M.Sc. Convocation at IIT Kharagpur",
-    tags: ["iitkgp", "MMM", "MSc"],
+    tags: ["IITKGP", "MMM", "MSc"],
     date: "2023-09-04",
+  },
+  {
+    id: 20,
+    src: "/images/2026/NSD26.jpg",
+    title: "National Science Day @IIT Kharagpur",
+    // desc: "M.Sc. Convocation at IIT Kharagpur",
+    tags: ["IITKGP", "Science Day", "PhD"],
+    date: "2026-02-28",
+  },
+  {
+    id: 21,
+    src: "/images/2026/Uluberia_seminar.jpeg",
+    title: "State-Level Seminar on AI Horizons @ Uluberia College",
+    // desc: "Visited Uluberia College as Speaker ",
+    tags: ["Uluberia College", "Seminar", "PhD"],
+    date: "2026-02-05",
   },
   
   // Add more images above

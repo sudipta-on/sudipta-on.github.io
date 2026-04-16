@@ -8,7 +8,7 @@ export default function Home() {
   useSEO({
     title: "Home | Sudipta Majumder",
     description: "Quantum Information, Quantum Computing, QML portfolio site.",
-    keywords: "quantum computing, qml, bec, amqi",
+    keywords: "quantum computing, qml, bec, amqi, iitkgp, kharagpur, iit kharagpur, s majumder, sudipta, sudipa Majumder, Sudipta, KGP"
   });
 
   return (

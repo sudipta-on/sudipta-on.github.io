@@ -1,15 +1,14 @@
-// components/FlipCard.jsx
 import React, { useState } from "react";
 
 const FlipCard = ({ title, subtitle, shortDesc, backDescription, link, linkText }) => {
-  const [flipped, setFlipped] = useState(false);
+  const [clicked, setClicked] = useState(false);
 
   return (
     <div
       className="flip-card"
-      onClick={() => setFlipped(!flipped)}
+      onClick={() => setClicked(prev => !prev)}
     >
-      <div className={`flip-inner ${flipped ? "flipped" : ""}`}>
+      <div className={`flip-inner ${clicked ? "clicked" : ""}`}>
         
         {/* FRONT */}
         <div className="flip-front">
@@ -25,7 +24,7 @@ const FlipCard = ({ title, subtitle, shortDesc, backDescription, link, linkText 
               rel="noopener noreferrer"
               className="flip-link"
             >
-              {linkText ? linkText : "PDF"}
+              {linkText || "PDF"}
             </a>
           )}
         </div>

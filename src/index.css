@@ -14,7 +14,28 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* Root full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
 
+/* Main layout container */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Content takes remaining space */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.main-content > * {
+  flex-grow: 1;
+}
 body {
   margin: 0;}
 
@@ -1029,17 +1050,20 @@ html, body, #root {
   gap: 32px;
 }
 
+
 /* ===========================================================
    FLIP CARD — PURE CSS (NO TAILWIND)
 =========================================================== */
 
 .flip-card {
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   min-height: 220px;
   height: auto;
   perspective: 1000px;
   cursor: pointer;
+  flex: 1 1 300px; 
+  min-width: 280px;
 }
 
 .flip-inner {
@@ -1050,9 +1074,9 @@ html, body, #root {
   transform-style: preserve-3d;
 }
 
-.flip-inner.flipped {
+/* .flip-inner.flipped {
   transform: rotateY(180deg);
-}
+} */
 
 /* -------- CARD SHARED STYLE -------- */
 .flip-front,
@@ -1076,13 +1100,18 @@ html, body, #root {
   overflow: hidden;
 }
 
-.flip-card:hover .flip-inner {
+.flip-card:hover .flip-inner:not(.clicked) {
+  transform: rotateY(180deg);
+}
+
+/* Click state (persistent) */
+.flip-inner.clicked {
   transform: rotateY(180deg);
 }
 
 .flip-front:hover,
 .flip-back:hover {
-  box-shadow: 0 0 40px rgba(100, 0, 255, 0.35);
+  box-shadow: 0 0 50px rgba(130, 46, 255, 0.35);
 }
 
 /* FRONT SIDE */
@@ -1953,3 +1982,20 @@ html, body, #root {
 }
 
 
+/* MOBILE FIX */
+@media (max-width: 768px) {
+  #hero.hero-section {
+    padding-top: 100px;   /* adjust based on navbar height */
+  }
+}
+/* Default */
+.main-content {
+  padding-top: 80px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 110px;
+  }
+}

@@ -5,18 +5,20 @@ import ParticlesBG from "./ParticlesBG";
 
 export default function Layout({ children }) {
   return (
-    <div className="min-h-screen relative text-white overflow-hidden">
-
-      {/* Particle Network Background */}
+    <div className="app-container min-h-screen flex flex-col relative text-white overflow-hidden">
+      
+      {/* Background */}
       <ParticlesBG />
 
-      {/* Floating Glass Navbar */}
+      {/* Navbar */}
       <Navbar />
 
-      <main className="flex-1 pt-20 px-4 relative z-10">
+      {/* Main Content */}
+      <main className="main-content flex-1 pt-20 px-4 relative z-10">
         {children}
       </main>
 
+      {/* Footer */}
       <Footer />
     </div>
   );
